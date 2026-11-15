@@ -14,7 +14,7 @@ This repository contains R scripts for the MSc thesis examining variation in *St
 
 Open the repository folder in RStudio and set it as the working directory (e.g., RStudio menu **Session → Set Working Directory → Choose Directory**). Scripts require `README.md` in that directory. The scripts use relative paths via `file.path(repo_dir, ...)`.
 
-Create **local-only** `input/` folders for original data. See `PATH_AUDIT.md` for the expected subfolders and filenames. Output files are written to local-only `output/`. Both are excluded from version control by `.gitignore`.
+Create **local-only** `input/` folders for original data. Create local-only input/ folders for the required datasets. Input filenames and directory settings are defined in the corresponding setup scripts. Output files are written to local-only `output/`. Both are excluded from version control by `.gitignore`.
 
 ## Limitations
 

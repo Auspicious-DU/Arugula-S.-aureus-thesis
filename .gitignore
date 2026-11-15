@@ -1,0 +1,9 @@
+# Do not commit research datasets, output tables, plots, or temporary files
+input/
+output/
+data/
+*.RData
+*.Rhistory
+.Rproj.user/
+.DS_Store
+Thumbs.db
